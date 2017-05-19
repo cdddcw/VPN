@@ -12,7 +12,7 @@
 
 (
 
-VPN_IP=`curl ipv4.icanhazip.com>/dev/null 2>&1`
+VPN_IP=`curl -s ipv4.icanhazip.com`
 
 VPN_USER="myuser"
 VPN_PASS="mypass"
